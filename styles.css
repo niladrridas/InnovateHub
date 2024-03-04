@@ -1,0 +1,57 @@
+/* Add your custom styles here */
+
+/* Custom futuristic styling */
+body {
+    background-color: #080808;
+    color: #fff;
+}
+
+header {
+    background-color: #1a1a1a;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 2em;
+    overflow: hidden;
+}
+
+section h2 {
+    color: #00aaff;
+    border-bottom: 2px solid #00aaff;
+    padding-bottom: 0.5em;
+}
+
+/* Unique styling for project showcase cards */
+#projects .project-card {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+#projects .project-card:hover {
+    transform: scale(1.05);
+}
+
+/* Unique styling for the contact form */
+form {
+    background-color: #1a1a1a;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
